@@ -42,14 +42,14 @@ p {
 	}
 
 h1 { 	
-	font-family: "fertigo-script", cursive;
+	font-family: "fertigo-script", Georgia, serif;
 	font-size: 4.0em;
 	letter-spacing: 0px; 
 	color: #ccc; 
 	}
 	
 h2 { 
-	font-family: "fertigo-script", cursive;
+	font-family: "fertigo-script", Georgia, serif;
 	font-size: 1.8em;
 	letter-spacing: 0px; 
 	color: #ccc; 
