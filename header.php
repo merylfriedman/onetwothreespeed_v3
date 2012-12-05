@@ -94,7 +94,10 @@
 
 	<?php wp_head(); ?>
 	
+	
+<!-- If I take out src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" and point to /js/jquery.min.js in my theme, the CSS styling breaks, and I am not sure why. -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	
 	<script src="/js/jquery.mousewheel.js"></script>
 	<script>
 	$(function(){
