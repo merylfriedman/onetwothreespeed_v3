@@ -1,0 +1,125 @@
+/*
+Theme Name: onetwothreespeed 
+Author: Meryl Friedman
+Author URI: http://merylfriedman.com/
+Version: 1.0
+*/
+
+
+/* RESET & BASIC SETUP */
+
+* {
+	margin: 0; 
+	padding: 0; 
+	}
+
+body { 
+	font-size: 100%; 
+	font-family: "le-havre-rounded", Futura, "Trebuchet MS", Arial, sans-serif;
+	background: #eeeeee;
+	color: #999999; 
+	padding: 20px;
+	}
+
+tr { 
+	vertical-align: top;
+	}
+
+/* STRUCTURE*/
+
+.post { 
+	/* width: 500px; */
+	min-width: 500px;
+	max-width: 1000px;
+	}
+
+
+/* TYPOGRAPHY */
+
+p { 
+	font-size: 1.2em; 
+	margin: 0 0 15px 0; 
+	}
+
+h1 { 	
+	font-family: "fertigo-script", cursive;
+	font-size: 4.0em;
+	letter-spacing: 0px; 
+	color: #ccc; 
+	}
+	
+h2 { 
+	font-family: "fertigo-script", cursive;
+	font-size: 1.8em;
+	letter-spacing: 0px; 
+	color: #ccc; 
+	}
+	
+a { 
+	color: #b300cc;
+	text-decoration: none;
+	 
+	}
+	
+a:hover { 
+	color: #640072; 
+	}
+	
+/* CUSTOM NAV MENU */
+
+.nav{
+    width:500px;
+    background: #000;
+    display:block;
+    float:left;
+    position:relative;
+}
+ 
+.nav ul{
+    list-style:none;
+}
+ 
+.nav li{
+    float:left;
+    position:relative;
+}
+
+.nav a{
+    display:block;
+    text-decoration:none;
+    color:#fff;
+    padding:0 15px 10px 0;
+    font-size:13px; 
+    font-weight:bold;
+}
+ 
+.nav ul ul{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    float:left;
+    z-index:99999;
+    background: #212121;
+}
+ 
+.nav ul ul ul{
+    top: 30%;
+    left:100%;
+    background: #343434;
+}
+ 
+.nav ul ul a{
+    height:auto;
+    line-height:1em;
+    padding:10px;
+    width:130px;
+}
+ 
+.nav li:hover > a,.nav ul ul:hover > a{
+    color:#ccc;
+}
+ 
+.nav ul li:hover > ul{
+    display:block;
+}
